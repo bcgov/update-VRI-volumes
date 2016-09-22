@@ -5,7 +5,9 @@ Add the VRI_Tools.tbx toolbox to ArcToolBox to run these scripts. Each tool take
 
 NOTE: Must run AddVphFieldstoVRI first.
 
+## Script Descriptions
 **AddVphFieldstoVRI.py script**
+
 This tool adds fields to a VRI table for tabulating volume per hectare by species and calculates volume per hectare at the primary utilization level (17.5 cm dbh.)
 
 Notes: 
@@ -14,6 +16,7 @@ Notes:
 -This cript only needs to be run once for the feature class
 
 **AddTotVolFieldsToVRI.py script**
+
 This tool adds fields to a VRI table for tabulating volume (m3) by species group in polygon at the primary utilization level (17.5 cm dbh.)
 
 Notes:
