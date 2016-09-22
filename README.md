@@ -11,18 +11,18 @@ NOTE: Must run AddVphFieldstoVRI first.
 This tool adds fields to a VRI table for tabulating volume per hectare by species and calculates volume per hectare at the primary utilization level (17.5 cm dbh.)
 
 Notes: 
--Adds new fields to an existing standard VRI table / feature class.
--Calculates new fields with m3/ha for each species in the polygon.
--This cript only needs to be run once for the feature class
+* Adds new fields to an existing standard VRI table / feature class.
+* Calculates new fields with m3/ha for each species in the polygon.
+* This cript only needs to be run once for the feature class
 
 **AddTotVolFieldsToVRI.py script**
 
 This tool adds fields to a VRI table for tabulating volume (m3) by species group in polygon at the primary utilization level (17.5 cm dbh.)
 
 Notes:
--Run this script after adding the m3/ha field with the first script
--The script should be run after completion of geoprocessing operations as the volumes are calculated for each polygon based on area
--The table can then be summarized using the named species volume fields
+* Run this script after adding the m3/ha field with the first script
+* The script should be run after completion of geoprocessing operations as the volumes are calculated for each polygon based on area
+* The table can then be summarized using the named species volume fields
 
 ## Requirements
 Requires ESRI ArcInfo licensing & ArcMap 10.0+.
